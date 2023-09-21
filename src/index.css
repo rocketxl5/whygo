@@ -121,11 +121,27 @@ ul {
   height: 100vh;
 }
 
+.col-12 {
+  width: 100%;
+}
+
+.col-
+
 
 
 /* -------------- */
-/* Settings       */
+/* Site Settings  */
 /* -------------- */
+:root {
+  /* site colors */
+  --primary-clr: #0080C8;
+  --secondary-clr: #F18700;
+  --background-clr: #99CCE9;
+  --light-clr: #909493;
+  --dark-clr: #2C2C2C;
+  --x-light-clr: #F8F8F8; 
+}
+
 body {
   font-family: sans-serif;
 }
@@ -133,3 +149,16 @@ body {
 .app {
   min-height: 100vh;
 }
+
+.main-header {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--light-clr);
+}
+
+.container {
+  max-width: 1140px;
+  margin-inline: auto;
+  border: 1px solid var(--secondary-clr);
+}
+
